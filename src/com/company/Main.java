@@ -22,10 +22,22 @@ public class Main {
 
         int secondTopScore = 60;
 
-        if(topScore > secondTopScore && topScore < 100) {
+        if((topScore > secondTopScore) && (topScore < 100)) {
+
             System.out.println("Greater than second top score and less than 100");
         }
 
 
+        double var1 = 20.00;
+        double var2 = 80.00;
+
+        double var3 = (var1 + var2) * 100.00;
+        double var4 = var3 % 40.00;
+
+        boolean var5 = (var4 == 0) ? true : false;
+        System.out.println(var5);
+        if(!var5) {
+            System.out.println("got remainder  ");
+        }
     }
 }
